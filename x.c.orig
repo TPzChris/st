@@ -796,6 +796,7 @@ xloadcols(void)
 	int i;
 	static int loaded;
 	Color *cp;
+	float alpha;
 
 	if (loaded) {
 		for (cp = dc.col; cp < &dc.col[dc.collen]; ++cp)
